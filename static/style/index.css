@@ -168,7 +168,7 @@ h2.section-title{
     height:62px;
     /* width:28.25%; */
 }
-#footer>button{
+#footer .button{
     /* width:170px; */
     height:46px;
     background-color: #f1f1ef;
@@ -452,7 +452,7 @@ div.line{
     #footer div.sign-list div.we-cell{
         width:28.25%;
     }
-    #footer>button{
+    #footer .button{
         width:170px;
     }
   }
@@ -572,7 +572,7 @@ div.line{
         width:100%;
         margin-bottom:28px;
       }
-        #footer>button{
+        #footer .button{
         width:100%;
         margin-top:0;
       }
