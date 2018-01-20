@@ -21,3 +21,5 @@ $('.closed').on('click', function () {
     $('#video')[0].load()
 });
 
+
+
