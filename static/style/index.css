@@ -6,13 +6,16 @@
 *::before,*::after{
     box-sizing: border-box;
 }
+a{
+    text-decoration: none;
+}
 body,html{
     background-color: transparent;
     /* text-align: center; */
     font-family: GillSans;
     color:#333;
 }
-h1,h2,h3{
+h1,h2,h3,h4{
     font-weight: normal;
 }
 ol,ul{
@@ -23,12 +26,119 @@ ol,ul{
 /*宽度达到最大xxx值前，执行的样式 */
 @media (max-width:500px) {        
     #products-show .product img{
-    
+     
    }
   }
 @media (min-width: 1024px){
     #wrapper{
         margin:4.72% 8.33% auto 8.33%;
+        
+    }
+    #top{
+        display: flex;
+        justify-content: space-between;
+        border-radius: 2px;
+        border: solid 1px #f1f1ef;
+        position: relative;
+    }
+    #top .topnav{
+        
+    }
+    #top .topnav h3{
+        color: #919295;
+        font-size: 22px;
+    }
+    #top .topnav h3 img{
+        width:32px;
+        height:32px;
+        margin:32px 13px auto 32px;
+        vertical-align: bottom;
+    }#top .topnav .text-wrap{
+        height: 89px;      
+        color: #7a7a7a;
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin:216px 45px;
+    }
+    #top .topnav .text-wrap h2{
+        font-size: 48px;
+    }
+    #top .topnav .text-wrap p{
+        line-height: 32px;
+        font-size: 18px;
+        letter-spacing: 1.1px;
+        color: rgba(149, 149, 149, 0.51);
+        margin-top: 12px;
+    }
+    #top .topnav .text-wrap a{
+        width: 170px;
+        height: 46px;
+        border-radius: 2px;
+        border: solid 1px #dddddd;
+        margin-top:18px;
+        margin-bottom: 120px;
+    }
+    #top .topnav .text-wrap a button{
+        background: transparent;
+        border:none;
+        width:100%;
+        height:100%;
+        font-size: 16px;
+        letter-spacing: 0.2px;
+        color: #959595;
+        
+    }
+    #top .topnav .text-wrap img{}
+
+    #top .topimg{
+        width:36.5%;
+        height:585px;
+        position: absolute;
+        right: 0;
+    }
+    #top .topimg img{
+        width:100%;
+        height:100%;
+        border-top-right-radius: 2px;
+        border-bottom-right-radius: 2px;
+    }
+
+    #signup{
+        margin:40px 0 65px;
+        padding-top:64px;
+        border-radius: 8px;
+        opacity: 0.5;
+        position: relative;
+        background-color: rgba(0,0,0,1);
+    }
+    #signup::after{
+        content: "";
+        position:absolute;
+        left:0;
+        top:0;
+        width:100%;
+        height:100%;
+        background: rgba(255,255,255,0.21);
+        z-index:-1;
+    }
+    #signup p{
+        text-align: center;
+        color: #ffffff;
+        width: 100%;
+        height: 46px;
+        font-size: 36px;
+    }
+    #signup button{
+        width: 170px;
+        height: 46px;
+        border-radius: 2px;
+        background-color: #ffffff;
+        margin:10px auto 44px;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        border:none;
     }
     h2.section-title{
         width:100%;
@@ -69,11 +179,35 @@ ol,ul{
     }
     h2.section-title{
         margin-bottom:32px;
-        margin-top:40px;
+        margin-top:25px;
     }
     header{
         height:585px;
     }
+    /* footer */
+    #footer div.sign-list{
+        display:flex;
+        justify-content: space-between;
+        
+    }
+    #footer div.sign-list div.we-cell{
+        height:62px;
+        width:28.25%;
+    }
+    #footer>button{
+        width:170px;
+        height:46px;
+        background-color: #f1f1ef;
+        border:1px solid #ddd;
+        text-align: center;
+        margin-left:50%;
+        transform: translateX(-50%);
+        margin-top: 36px;
+        margin-bottom:118px;
+        border-radius: 2px;
+    }
+    
+
   }
   /* Fullscreen Section */
   #media-show{
@@ -173,11 +307,116 @@ ol,ul{
     border-radius: 2px;    
   }
   
-  
- 
-  
   /* Class to fade in overlay */
   .show {
     opacity: 1;
   }
+ #influence ol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+ }
+ #influence ol>li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:49%;
+    border-radius: 2px;
+    border: solid 1px #f1f1ef;
+    margin-bottom: 26px;
+ }
+ #influence li div.logo{
+    width: 121px;
+    height: 124px;
+    border-radius: 50%;
+    background: #ccc;
+    flex-shrink: 0;
+    margin:28px 18px;
+ }
+ #influence li div.description{
+    margin-right:30px;
+ }
+ #influence li div.description p.Summary{
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 1.23;
+    text-align: left;
+    color: #6c757d;
+ }
+ #influence li div.description h4.source{
+     text-align: right;
+    font-size: 22px;
+    letter-spacing: 1.3px;
+    color: #949ea8;
+ }
 
+ #cooperations{
+     padding:40px 100px;
+     border: solid 1px #f1f1ef;
+     border-radius: 2px;
+ }
+ #cooperations ul.media-logo{
+     display:flex;
+     flex-wrap:wrap;
+     justify-content: space-between;
+     align-items: center;
+ }
+ #cooperations ul.media-logo li{
+     width:15%;
+ }
+ #cooperations ul.media-logo li img{
+     width:100%;
+     height:100%;
+ }
+
+    #footer h2.section-title{
+        margin-top: 40px;
+        margin-bottom: 28px;
+    }
+    #footer div.sign-list div.we-cell input{
+        width:100%;
+        height:100%;
+        border: solid 1px #f1f1ef;
+        padding-left:30px;
+    }
+    #footer div.sign-list div.we-cell input::-webkit-input-placeholder{
+        font-family: GillSans;
+        font-size: 18px;
+        letter-spacing: 0.2px;
+        text-align: left;
+        color: #959595;
+    }
+    hr{
+        height: 2px;
+        border: solid 1px #dddddd;
+        width:100%;
+    }
+    div.line{
+        height:2px;
+        border:1px solid #ddd;       
+        position:absolute;
+        left:-10%;
+        right:-10%;
+    }
+    #footer div.copyright-about{
+        
+        /* text-align: left; */
+        color: #7a7a7a;
+        display:flex;
+        justify-content: space-between;
+        margin:48px auto;
+    }
+    #footer div.copyright-about p.copyright{
+        width: 220px;
+        font-size: 24px;
+
+    }
+    #footer div.copyright-about div.about{
+        display:flex;
+        flex-direction: column;
+        width: 149px;
+        font-size: 24px;
+    }
+    #footer div.copyright-about div.about p a{
+        color:#7a7a7a;
+    }
