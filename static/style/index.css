@@ -96,7 +96,8 @@ h3 img.dlogo{
     border-radius: 8px;
     opacity: 0.5;
     position: relative;
-    background-color: rgba(0,0,0,1);
+    background-image: url(../images/signup-bg.png);
+    /* background-color: rgba(0,0,0,1); */
 }
 #signup::after{
     content: "";
@@ -502,7 +503,7 @@ div.line{
  
 
   /*宽度达到最大xxx值前，执行的样式 */
-@media (max-width:769px) { 
+@media (max-width:800px) { 
     h3.ipad{
         display:block;
         width:100%;
