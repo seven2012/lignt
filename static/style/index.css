@@ -659,6 +659,12 @@ div.line{
     #media-show {
         max-height:200px;
     }
+    #media-show .closed {
+        width: 16px;
+        fill: rgba(255, 255, 255,0.7);
+        right:12px;
+        top:12px;
+    }
     #products-show{
         margin-top:35px;
     }
