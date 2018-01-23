@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1300px" height="310px" viewBox="0 0 1300 310" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Banner</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="1200" height="210" rx="8"></rect>
+        <filter x="-7.1%" y="-31.0%" width="114.2%" height="181.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feMorphology radius="5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="0" dy="20" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="20" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.880075468   0 0 0 0 0.880075468   0 0 0 0 0.880075468  0 0 0 0.2 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Desktop-HD" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-70.000000, -664.000000)">
+        <g id="Banner" transform="translate(120.000000, 694.000000)">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-1"></use>
+                <use fill="#949EA8" fill-rule="evenodd" xlink:href="#path-1"></use>
+            </g>
+            <path d="M-143,-5.56255548 C-133.890373,-33.8541852 -58.1028065,-48 84.3626996,-48 C298.060959,-48 219.081664,201.065007 389.570003,105.332406 C503.228896,41.5106727 639.585209,87.3041154 798.638944,242.712735 L451.091395,258.664813 L-143,242.712735 L-143,-5.56255548 Z" id="Rectangle-6" fill-opacity="0.210343071" fill="#FFFFFF" opacity="0.396682518" mask="url(#mask-2)"></path>
+            <path d="M-79.6620447,-316.578055 C-94.8867103,-58.6982033 -27.3742299,40.4526997 122.875396,-19.1253464 C348.249836,-108.492415 311.965099,318.429003 475.351099,122.551011 C584.275099,-8.03431709 720.371048,33.873776 883.638944,248.27529 L536.091395,264.227368 L-58,248.27529 L-79.6620447,-316.578055 Z" id="Rectangle-6" fill-opacity="0.210343071" fill="#FFFFFF" opacity="0.499830163" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>
