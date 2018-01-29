@@ -802,3 +802,11 @@ div.line {
 button:focus {
   outline: 0
 }
+
+.igbanner {
+  background-image: url(../images/igbg.svg) !important;
+}
+
+.igbutton {
+  color: #ec1477 !important;
+}
