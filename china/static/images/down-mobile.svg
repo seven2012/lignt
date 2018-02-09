@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="22px" viewBox="0 0 42 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 48.2 (47327) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="iPad" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" transform="translate(-359.000000, -596.000000)">
+        <g id="Group" transform="translate(0.000000, 18.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#FFFFFF">
+            <g id="bc387636c7ca3b5952b8063fd226ba2e" transform="translate(360.000000, 579.000000)">
+                <path d="M39.0040515,1.14538535e-15 C38.7020109,1.14538535e-15 38.5060927,0.096719194 38.3020112,0.298217515 L20.0040662,17.3772152 L1.7020395,0.298217515 C1.50203965,0.10074916 1.30203981,0 0.999999226,0 C0.399999691,0 0,0.394936709 0,0.987341772 C0,1.28555929 0.0979591079,1.48302764 0.297958953,1.680496 L19.2979443,19.4526479 C19.4979441,19.6501162 19.6979439,19.7468354 19.9999845,19.7468354 C20.3020251,19.7468354 20.502025,19.6460863 20.6979432,19.4526479 L39.6979285,1.680496 C39.8979283,1.48302764 39.9999691,1.28555929 39.9999691,0.987341772 C40.0040507,0.394936709 39.604051,1.14538535e-15 39.0040515,1.14538535e-15 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>
