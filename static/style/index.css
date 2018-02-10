@@ -548,7 +548,7 @@ div.line {
     justify-content: space-between;
   }
   #footer div.sign-list div.we-cell {
-    width: 28.25%;
+    width: 100%;
   }
   #footer .button {
     width: 170px;
